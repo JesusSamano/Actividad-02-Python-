@@ -112,7 +112,7 @@ def Menu1():
     print("\n------------------------MENU PRINCIPAL-----------------------\n")
     print("1.-Areas \n2.-Signo Zodiacal \n3.-Proceso Matematico \n9.-Salir ")
     opc = int(input("Ingrese opcion que desea realizar: "))
-    while opc !=9:
+    while opc !=4:
         if opc ==1:
            Figuras()
             
@@ -124,7 +124,7 @@ def Menu1():
         elif opc == 3:
              Mat()
         
-        elif opc == 9:
+        elif opc == 4:
             print("adios")
          
         else:
