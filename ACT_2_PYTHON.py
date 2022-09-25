@@ -110,7 +110,7 @@ def Cerrar():
     
 def Menu1():
     print("\n------------------------MENU PRINCIPAL-----------------------\n")
-    print("1.-Areas \n2.-Signo Zodiacal \n3.-Proceso Matematico \n9.-Salir ")
+    print("1.-Areas \n2.-Signo Zodiacal \n3.-Proceso Matematico \n4.-Salir ")
     opc = int(input("Ingrese opcion que desea realizar: "))
     while opc !=4:
         if opc ==1:
